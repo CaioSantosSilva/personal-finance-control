@@ -41,11 +41,13 @@ Clone o repositório e navegue até a pasta do backend:
 ```bash
 git clone [https://github.com/CaioSantosSilva/personal-finance-control.git](https://github.com/CaioSantosSilva/personal-finance-control.git)
 cd personal-finance-control/backend
+```
+
 Crie e ative um ambiente virtual (venv):
 
 Bash
 python -m venv venv
-# No Windows:
 venv\Scripts\activate
+
 🧑‍💻 Autor
 Desenvolvido com 💜 por Caio Santos Silva.
