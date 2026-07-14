@@ -36,5 +36,5 @@ Before running the application, make sure you have installed:
 ### 2. Setting up the Backend (Python)
 Clone the repository and navigate to the backend folder:
 ```bash
-git clone [https://github.com/YOUR_GITHUB_USERNAME/meu-controle-financeiro.git](https://github.com/YOUR_GITHUB_USERNAME/meu-controle-financeiro.git)
-cd meu-controle-financeiro/backend
+git clone [https://github.com/CaioSantosSilva/personal-finance-control.git](https://github.com/CaioSantosSilva/personal-finance-control.git)
+cd personal-finance-control/backend
