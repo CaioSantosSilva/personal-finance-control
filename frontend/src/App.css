@@ -1,0 +1,182 @@
+/* src/App.css */
+.container {
+  max-width: 1100px;
+  width: 100vw;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: #64748b;
+  margin-top: 0.5rem;
+}
+
+/* Cards de Resumo */
+.summary-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.card p {
+  margin: 0.5rem 0 0 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.card.income p { color: #10b981; }
+.card.expense p { color: #ef4444; }
+.card.total p { color: #0f172a; }
+
+/* Grid Principal */
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    grid-template-columns: 350px 1fr;
+  }
+}
+
+/* Formulário */
+.transaction-form {
+  background: white;
+  padding: 1.8rem;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  height: fit-content;
+}
+
+.transaction-form h2, .transactions-list h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  color: #0f172a;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2rem;
+}
+
+.input-group label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #475569;
+  margin-bottom: 0.4rem;
+}
+
+.input-group input, .input-group select {
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  font-size: 0.95rem;
+  outline: none;
+  background-color: #f8fafc;
+}
+
+.input-group input:focus, .input-group select:focus {
+  border-color: #3b82f6;
+  background-color: white;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #0f172a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-submit:hover {
+  background-color: #1e293b;
+}
+
+/* Tabela e Extrato */
+.transactions-list {
+  background: white;
+  padding: 1.8rem;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid #f1f5f9;
+  font-size: 0.95rem;
+}
+
+th {
+  color: #64748b;
+  font-weight: 600;
+}
+
+.badge {
+  background-color: #f1f5f9;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: #475569;
+}
+
+.value-income { color: #10b981; font-weight: 600; }
+.value-expense { color: #ef4444; font-weight: 600; }
+
+.type-badge {
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.type-badge.receita { background-color: #ecfdf5; color: #065f46; }
+.type-badge.despesa { background-color: #fef2f2; color: #991b1b; }
