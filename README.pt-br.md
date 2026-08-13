@@ -1,4 +1,4 @@
-# Apex Finance Tracker 💸 (personal-finance-control)
+# Apex Finance Tracker  (personal-finance-control)
 
 _Leia isto em [Inglês](README.md)_
 
@@ -50,4 +50,4 @@ python -m venv venv
 venv\Scripts\activate
 
 🧑‍💻 Autor
-Desenvolvido com 💜 por Caio Santos Silva.
+Desenvolvido por Caio Santos Silva.
