@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, Float
 from database import Base
 
-#Criamos a classe que represntara a nossa tabela de transações
+# nossa tabela de transações
 class Transaction(Base):
     __tablename__ = "transactions" # Nome exato da tabela no banco de dados
 
