@@ -1,4 +1,4 @@
-# Apex Finance Tracker 💸 (personal-finance-control)
+# Apex Finance Tracker  (personal-finance-control)
 
 _Read this in [Português](README.pt-br.md)_
 
@@ -47,4 +47,4 @@ venv\Scripts\activate
 
 
 🧑‍💻 Author
-Developed with 💜 by Caio Santos Silva.
+Developed  by Caio Santos Silva.
